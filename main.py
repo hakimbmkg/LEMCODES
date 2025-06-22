@@ -3,7 +3,7 @@ from preprocess import Preprocess
 
 def main():
     parser = argparse.ArgumentParser(description="Downloader FDSN dengan multiproses dan resume")
-    parser.add_argument("--client", required=False, help="Nama client FDSN, misalnya IRIS, ORFEUS, BMKG, dll.")
+    parser.add_argument("--client", required=False, help="Nama client FDSN rubah dalam header.py obspy registrasi alamat lokal.")
     parser.add_argument("--network", required=False, help="Kode network, bisa multiple dipisah koma")
     parser.add_argument("--station", required=False, help="Kode stasiun, bisa multiple dipisah koma")
     parser.add_argument("--channel", required=False, help="Channel yang ingin diambil, contoh: EHZ,EHN,EHZ")
