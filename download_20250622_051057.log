@@ -1,0 +1,8 @@
+[INFO] Menjalankan FDSN Downloader dengan mode: full dan thread : 48 Threads
+[INFO] Folder '/home/geo3hakim/QF/fdsn_am' dibuat.
+[INFO] Subfolder 'Waveform' disiapkan.
+[INFO] Mengambil daftar stasiun dari server...
+[INFO] Total stasiun-channel: 18 disimpan ke /home/geo3hakim/QF/fdsn_am/station_list.csv
+[INFO] Mulai download waveform...
+[INFO] Total file untuk didownload: 10242
+  0%|          | 0/10242 [00:00<?, ?it/s]  0%|          | 29/10242 [02:16<13:22:35,  4.72s/it]
